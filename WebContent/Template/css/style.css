@@ -1,0 +1,413 @@
+.home{
+	background: #F0F0F0;
+}
+
+.header{
+	background:rgb(182, 228, 230);
+}
+
+.header img{
+	height: 60px;
+	max-width: 100%;
+}
+
+.button{
+	float: left;
+	background-color: #fff;
+	color: #000;
+	border-radius: 5px;
+	padding: 8px 10px;
+	font-weight: bold;
+}
+
+.button:hover{
+	color: #00339;
+	text-decoration: none;
+	text-decoration-line: underline;
+}
+
+.header .bt{
+	float: right;
+	margin-top: 9px;
+	margin-left: 10px;
+}
+
+.nav-menu{
+    background: #025aac;
+	padding: 0 100px;
+	font-size:15px;
+}
+
+.nav-menu .nav-item{
+	border-right-style: solid;
+    border-width: 1px;
+	border-color: black;	
+}
+.nav-menu .last{
+	border-right: none;
+}
+
+.nav-menu .nav-item:hover{
+	background-color: lightcoral;
+}
+
+.nav-menu .nav-link{
+	color: white;
+	font-weight: bold;
+	padding:10px;
+}
+
+.nav-menu .nav-link:hover{
+	color: white;
+}
+
+.nav-menu .active{
+	background-color: lightcoral;
+}
+
+.section {
+	position: relative;
+	height: 100vh;
+}
+
+.section .section-center {
+	position: absolute;
+	top: 50%;
+	left: 0;
+	right: 0;
+	-webkit-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+
+#backgroud {
+	font-family: 'Montserrat', sans-serif;
+	background-size: cover;
+	background-position: center;
+}
+
+#backgroud::before {
+	content: '';
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	top: 0;
+	background: rgba(160, 193, 219, 0.4);
+}
+
+/*login*/
+
+.form-content-box {
+    max-width: 400px;
+    margin: 20px auto 20px;
+    text-align: center;
+}
+
+.form-content-box .form-group{
+    margin-bottom: 25px;
+}
+
+.form-content-box .details {
+    padding: 30px 30px;
+    border-radius: 5px 5px 0 0;
+    background: #fff;
+}
+
+.form-content-box .checkbox label::before {
+    width: 0;
+    height: 0;
+    left: 0;
+    margin-left: 0;
+}
+
+.form-content-box .checkbox {
+    padding-left: 8px;
+    margin: 0 0 25px;
+}
+
+.form-content-box h3 {
+    margin: 0 0 30px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #323232;
+    text-align: left;
+}
+
+.form-content-box h1{
+    margin: -20px 0 30px;
+    font-size: 15px;
+    font-weight: 300;
+    color: #323232;
+    text-align: left;
+}
+
+.form-content-box .input-text {
+    width: 100%;
+    padding: 10px 15px;
+    font-size: 13px;
+    height: 45px;
+    border: 1px solid #e8e7e7;
+    outline: none;
+    color: #717171;
+    border-radius: 3px;
+}
+
+.form-content-box .footer {
+	margin: 0;
+    font-size: 13px;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 0 0 5px 5px;
+}
+
+.form-content-box .footer span{
+    color: #535353;
+}
+
+.form-content-box .footer span a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.form-content-box .footer span a:hover {
+    color: #8b8b8b;
+}
+
+.form-content-box .checkbox a {
+    color: #8b8b8b;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.details .btn{
+	color: #fff;
+	background-color: #3399FF;
+    font-size: 15px;
+	border: none;
+	text-transform: uppercase;
+	padding: 14px;
+	width: 100%;
+}
+.details .btn:hover {
+	color: #fff;
+    background-color: #1c4cac;
+}
+/*search*/
+.select-form{
+	background-color: orange;
+	border-radius: 5px;
+	padding: 10px 0 10px 20px;
+	margin-top: 10px;
+
+}
+.select-form .form-control{
+	margin-left: 5px;
+	font-size:15px;	
+}
+.select-form .btn{
+	background-color: #1163b6;
+	color: white;	
+	font-weight: bold;
+    font-size: 13px;
+	padding: 8px;
+	text-transform: uppercase;
+	width: 90%;
+}
+
+.select-form .btn:hover{
+	background-color: #0b5299;
+	text-decoration-line: underline;
+}
+/*body*/
+.body .left-col{
+	background: white;
+	border-color: rgb(148, 145, 135);
+	border-style: solid;
+    border-width: 1px;
+	border-radius: 5px;
+	margin-top:20px;
+	padding: 0;
+}
+
+.body .right-col{
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.body .left-col .post-item{
+	border-top-style: solid;
+	border-width: 2px;
+	border-color: red;
+	background-color: beige;
+}
+
+.post-item img{
+	width: 30%;
+	height: 180px;
+	float: left;
+	margin:15px;
+}
+
+.item-info h6{
+	color:red;
+	margin: 10px 5px;
+	font-weight:bold;
+}
+.item-info a:hover{
+	text-decoration-color: red;
+}
+
+.item-info p{
+	overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 3;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+}
+.body span{
+	margin-right: 30px;
+}
+.body p{
+	margin-bottom: 5px;
+}
+
+.right-col .first-row{
+	background: white;
+	border-color:rgb(148, 145, 135) ;
+	border-style: solid;
+    border-width: 1px;
+	border-radius: 5px;
+	margin: 20px 0 10px 10px;
+	padding: 10px 20px;
+}
+
+.right-col .nav-link:hover{
+	color: red;
+}
+/*footer*/
+.footer{
+	background:rgb(182, 228, 230);
+	margin-top: 20px;
+	padding: 10px 0;
+}
+.footer img{
+	height: 60px;
+	margin-top:10px;
+}
+/*usermenu*/
+.user-menu{
+	background:rgb(182, 228, 230);
+}
+.user-menu img{
+	height: 50px;
+	margin-left: 10px;
+}
+
+.user-menu .navbar{
+	padding: 5px;
+}
+
+.user-menu .nav-item{
+	margin-right: 20px;
+}
+.user-menu .nav-link{
+	font-weight: bold;
+}
+/*user body*/
+.user-body img{
+	height: 50px;
+	width: 50px;
+	float: left;
+}
+.user-body .avatar{
+	margin: 0 10px 0 20px;
+}
+.user-body .left-col{
+	background: #f3f1f1;
+	padding:20px 20px;
+	min-height: 670px;
+}
+
+.bn{
+	color: white;
+	border: none;
+	background: red;
+	border-radius: 5px;
+	padding: 5px 10px;
+}
+.bn:hover{
+	background: rgb(202, 13, 13);
+	color: white;
+}
+
+.user-body .right-col{
+	padding: 30px;
+}
+
+.user-body h4{
+	margin-bottom: 20px;
+	border-bottom: solid;
+	border-width: 1px;
+	padding-bottom: 10px;
+	border-color: #d1caca;
+}
+
+.user-body .note{
+	background-color: pink;
+	padding: 10px 20px;
+	border-radius: 5px;
+}
+
+.user-body .sl{
+	margin: 15px;
+}
+
+.user-body .tn{
+	width: 25%;
+	display: flex;
+}
+
+.user-body .tb{
+	width: 60%;
+	display: flex;
+}
+.input-group-append{
+	display: flex;
+	border-radius: 0px;
+}
+
+.lb{
+	margin: 20px 0 10px;
+}
+.right-col .btn{
+	width: 100%;
+	margin-top: 20px;
+}
+
+.carousel img{
+    width: auto;
+    height: 500px;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+	height: 100px;
+	width: 50px;
+	border-radius: 50%;
+}
+.carousel-inner{
+	background-color:black;
+}
+
+.op{
+	color: blue;
+	margin: 20px 0 20px 10px;
+}
+
+.btt{
+	border: none;
+	border-radius: 5px;
+	border-color: blue;
+	border-style: solid;
+	border-width:1px;
+	padding: 5px 10px;
+}
