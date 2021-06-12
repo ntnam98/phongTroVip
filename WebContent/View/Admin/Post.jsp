@@ -76,7 +76,7 @@
 								            <h5 class="modal-title">Bạn muốn xóa bài đăng này?</h5>
 								          </div>
 										  <div class="modal-body">
-								            <p style="font-size:15px;">Bài đăng này sẽ bị xóa vĩnh viễn trên hệ thống.</p>
+								            <p style="font-size:15px;">Bài đăng này sẽ bị xóa vĩnh viễn trên hệ thống</p>
 								          </div>
 								          <div class="modal-footer">
 								            <button type="button" class="btn btn-danger" data-dismiss="modal">Đóng</button>
