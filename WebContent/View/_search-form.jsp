@@ -9,7 +9,7 @@
 	                <option value="2" <c:if test="${menu==2}">selected</c:if>>Nhà cho thuê</option>
 	                <option value="3" <c:if test="${menu==3}">selected</c:if>>Tìm người ở ghép</option>
 	                <option value="4" <c:if test="${menu==4}">selected</c:if>>Thuê mặt bằng</option>
-	                <option value="5" <c:if test="${menu==5}">selected</c:if>>Tôi cần thuê</option>
+	                <option value="5" <c:if test="${menu==5}">selected</c:if>>Cần tìm thuê</option>
 	            </select>
 	            <select class="col form-control" name="city" id="city" required>
 	                <option value="%">Chọn tỉnh thành</option>

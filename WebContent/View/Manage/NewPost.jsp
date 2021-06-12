@@ -44,7 +44,7 @@
                         <option value="2" >Nhà thuê nguyên căn</option>
                         <option value="3" >Tìm người ở ghép</option>
                         <option value="4" >Cho thuê mặt bằng</option>
-                        <option value="5" >Tôi cần thuê</option>
+                        <option value="5" >Cần tìm thuê</option>
                     </select>
 
                     <label class="lb">Tiêu đề</label>

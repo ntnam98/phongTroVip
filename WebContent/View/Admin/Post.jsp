@@ -59,13 +59,13 @@
                         		<td><a href="PostInfo?postId=${post.getPostId()}">${post.getTitle()}</a></td>
                         		<td class="text-success">${post.getPrice()} Đồng/Tháng</td>
                         		<td class="text-warning">
-                        			<c:if test="${post.isActive()==1}">Đang hoạt động</c:if>
-                        			<c:if test="${post.isActive()==0}">Đang ẩn</c:if>
+                        			<c:if test="${post.isActive()==true}">Đang hoạt động</c:if>
+                        			<c:if test="${post.isActive()==false}">Đang ẩn</c:if>
                         		</td>
                         		<td>${post.getCreatedAt()}</td>
    
-                        		<c:if test="${post.isActive()==1}"><td><a href="AdminPost?hide=${post.getPostId()}&page=${pg}">Ẩn</a></td></c:if>
-                        		<c:if test="${post.isActive()==0}"><td><a href="AdminPost?show=${post.getPostId()}&page=${pg}">Hiện</a></td></c:if>
+                        		<c:if test="${post.isActive()==true}"><td><a href="AdminPost?hide=${post.getPostId()}&page=${pg}">Ẩn</a></td></c:if>
+                        		<c:if test="${post.isActive()==false}"><td><a href="AdminPost?show=${post.getPostId()}&page=${pg}">Hiện</a></td></c:if>
   
                         		<td>
                         			<a href="" data-toggle="modal" data-target="#delete">Xóa</a>							

@@ -5,7 +5,7 @@
 <html>
 
 <head>
-	<title>Các bài đăng đã lưu</title>
+	<title>Các bài đăng đã quan tâm</title>
 
 	<link type="text/css" rel="stylesheet" href="Template/css/bootstrap.min.css" />
 	<link type="text/css" rel="stylesheet" href="Template/css/style.css" />
@@ -21,7 +21,7 @@
         <div class="row">
             <jsp:include page="_left-col.jsp"></jsp:include>
             <div class="col-9 right-col">
-                <h5 class="float-left">Các bài đăng đã lưu</h5>
+                <h5 class="float-left">Các bài đăng đã quan tâm</h5>
                      
                 <c:if test="${not empty maxPage}">
 	                <div class="float-right">
@@ -68,7 +68,7 @@
 								      <div class="modal-dialog modal-dialog-centered">
 								      	<div class="modal-content">
 								          <div class="modal-header">
-								            <h5 class="modal-title">Bạn muốn xóa bài đăng này khỏi các bài đăng đã lưu?</h5>
+								            <h5 class="modal-title">Bạn muốn xóa bài đăng này khỏi các bài đăng đã quan tâm?</h5>
 								          </div>
 					
 								          <div class="modal-footer">

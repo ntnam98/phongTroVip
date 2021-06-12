@@ -26,7 +26,7 @@
                             <a class="nav-link" href="Search?menu=4">Cho thuê mặt bằng</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="Search?menu=5">Tôi cần thuê</a>
+                            <a class="nav-link" href="Search?menu=5">Cần tìm thuê</a>
                         </li>
                     </ul>
                 </nav>

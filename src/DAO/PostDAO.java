@@ -41,7 +41,7 @@ public class PostDAO {
 				String content = rs.getString("content");
 				int price = rs.getInt("price");
 				int area = rs.getInt("area");
-				int isActive = rs.getInt("isActive");
+				boolean isActive = rs.getBoolean("isActive");
 				String createdAt = rs.getString("createdAt");
 				String updatedAt = rs.getString("updatedAt");
 				post.setPostId(postId);
@@ -89,7 +89,7 @@ public class PostDAO {
 				String content = rs.getString("content");
 				int price = rs.getInt("price");
 				int area = rs.getInt("area");
-				int isActive = rs.getInt("isActive");
+				boolean isActive = rs.getBoolean("isActive");
 				String createdAt = rs.getString("createdAt");
 				String updatedAt = rs.getString("updatedAt");
 				post.setAccId(accId);
@@ -293,7 +293,7 @@ public class PostDAO {
 				String content = rs.getString("content");
 				int priceInt= rs.getInt("price");
 				int areaInt = rs.getInt("area");
-				int Active = rs.getInt("isActive");
+				boolean Active = rs.getBoolean("isActive");
 				String createdAt = rs.getString("createdAt");
 				String updatedAt = rs.getString("updatedAt");
 				post.setAccId(accId);

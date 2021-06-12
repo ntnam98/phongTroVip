@@ -19,7 +19,7 @@
 				<a class="nav-link" href="Search?menu=4">Cho thuê mặt bằng</a>
 		  	</li>
 		  	<li class="nav-item <c:if test="${menu == 5}"> active</c:if>">
-				<a class="nav-link" href="Search?menu=5">Tôi cần thuê</a>
+				<a class="nav-link" href="Search?menu=5">Cần tìm thuê</a>
 		  	</li>
 			<li class="nav-item last <c:if test="${menu == 6}"> active</c:if>">
 				<a class="nav-link" href="Instruction">Hướng dẫn</a>

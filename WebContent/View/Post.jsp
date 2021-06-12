@@ -118,7 +118,7 @@
 						</div>
 					</div>
 				</div>
-				<a href="StorePost?post=${post.getPostId()}&sp=1" class="btt"><i class="fa fa-star" aria-hidden="true"></i> <b><i>Lưu bài đăng</i></b></a>
+				<a href="StorePost?post=${post.getPostId()}&sp=1" class="btt"><i class="fa fa-star" aria-hidden="true"></i> <b><i>Quan tâm bài đăng</i></b></a>
 			</div>
 			<div class="col-4">
 				<jsp:include page="_right-col.jsp"></jsp:include>

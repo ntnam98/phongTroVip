@@ -61,11 +61,6 @@
 	                                    <input type="password" name="password" class="input-text form-control" id="pw" placeholder="Mật khẩu" required>
 	                                    <div class="invalid-feedback text-left">Vui lòng nhập mật khẩu</div>
 	                                </div>
-	                                <div class="form-group">
-	                                    <input type="password" name="confirm_password" class="input-text form-control" id= "pw2" placeholder="Nhập lại mật khẩu" required>
-	                                    <div class="invalid-feedback text-left">Vui lòng nhập lại mật khẩu</div>
-	                                    <p id='demo'></p>
-	                                </div>
 	                                <%
 										if(request.getParameter("error") != null){
 											out.print("<p style='color:red'>Vui lòng nhập tên đăng nhập/số điện thoại khác</p>");

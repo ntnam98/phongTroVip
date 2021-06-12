@@ -12,7 +12,7 @@ public class Post {
 	private String content;
 	private int price;
 	private int area;
-	private int isActive;
+	private boolean isActive;
 	private String url;
 	private String category;
 	private String createdAt;
@@ -88,10 +88,10 @@ public class Post {
 	public void setPrice(int price) {
 		this.price = price;
 	}
-	public int isActive() {
+	public boolean isActive() {
 		return isActive;
 	}
-	public void setActive(int isActive) {
+	public void setActive(boolean isActive) {
 		this.isActive = isActive;
 	}
 	public String getUrl() {

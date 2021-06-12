@@ -22,7 +22,7 @@ public class LogOut extends HttpServlet {
 		if(admin==null) {
 			HttpSession httpSession = request.getSession();
 			httpSession.removeAttribute("user");
-			response.sendRedirect("Home");
+			response.sendRedirect("Login");
 		}
 		else {
 			HttpSession httpSession = request.getSession();

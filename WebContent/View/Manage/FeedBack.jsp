@@ -30,15 +30,15 @@
                 <form action="" method="POST">
                 	<div class="form-group">
                         <label for="name">Tên</label>
-                        <input type="text" class="form-control" id="name" value="${user.getUserName()}">
+                        <input type="text" class="form-control" id="name" name="name" value="${user.getName()}">
                     </div>
                     <div class="form-group">
                         <label for="phone">Số điện thoại</label>
-                        <input type="text" class="form-control" id="phone" value="${user.getPhone()}">
+                        <input type="text" class="form-control" id="phone" name="phone" value="${user.getPhone()}">
                     </div>  
                     <div class="form-group">
                         <label for="phone">Nội dung</label>
-                    	<textarea name="" id="" class="input-text form-control" required rows="5"></textarea>
+                    	<textarea name="content" id="content" class="input-text form-control" required rows="5"></textarea>
                     </div>
                     <c:if test="${not empty rs}">
                     	<p class="text-success">Gửi phản hồi thành công</p>
